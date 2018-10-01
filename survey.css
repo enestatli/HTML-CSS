@@ -1,0 +1,35 @@
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web);
+
+html, body{
+	font-family: Titillium Web;
+	background-color:red;
+	text-align: ;
+}
+
+#form{
+  	background-color:white;
+  	display:flex;
+  	border:2px solid green;
+  	margin:auto;
+  	width:1500px;
+  	height:1300px;
+  	justify-content:center;
+  	align-items:;
+  	flex-wrap:wrap;
+}
+
+.leftSection{ 	
+	border:2px solid yellow;
+  	width:200px;
+  	height:100px;
+  	margin:5px;
+  	text-align:right;
+}
+
+.rightSection{
+	border:2px solid black;
+  	width:200px;
+  	height:100px;
+  	margin:5px;
+  	text-align:center;
+}

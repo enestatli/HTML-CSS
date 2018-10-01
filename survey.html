@@ -1,0 +1,74 @@
+<main>
+	<link rel="stylesheet" type="text/css" href="survey.css">
+<h1 id="title">Himalayan Marmot Customer Satisfaction Survey</h1>
+<div id="form">
+	<p id="description"></p>
+	<form id="survey-form">
+		<div class="leftSection">
+			<label id="name-label">*Name:</label>
+		</div>
+			<div class="rightSection">
+				<input id="name" type="text" required placeholder="Enter Your Name">
+			</div>
+		<br>
+		<div class="leftSection">
+			<label id="email-label">*E-mail:</label>
+		</div>
+			<div class="rightSection">
+				<input id="email" type="email" required placeholder="Enter Your E-mail Adress">
+			</div>
+		<br>
+		<div class="leftSection">
+			<label id="name-label">*Age:</label>
+		</div>
+			<div class="rightSection">
+				<input id="age" type="number" min="6" max="36" required placeholder="Enter Your Age">
+			</div>
+		<br>
+		<div class="leftSection">
+			<label name="xyz">Which breed are you</label>
+		</div>
+		<div class="rightSection">	
+			<select id="dropdown" name="xyz" class="dropdown">
+				<option disabled value>Select an option</option>
+				<option value="good">Good boy</option>
+				<option value="notbad">Shiba Inu</option>
+				<option value="cute">Malamute</option>
+				<option value="sweet">Akita</option>
+				<option value="filty">Hound</option>
+				<option value="aww">Corgi</option>
+				<option value="aww">Other</option>
+			</select>
+		</div><br>
+		<div class="leftSection">
+			<label for="rating">How likely is that you would recommend Himalayan Marmot dog food to a friend?</label>
+		</div>
+		<div class="rightSection">
+			<input id="rating" type="radio" name="radio-button" value="1">For sure
+			<input id="rating" type="radio" name="radio-button" value="2">Definitely
+			<input id="rating" type="radio" name="radio-button" value="3">Of course
+			<input id="rating" type="radio" name="radio-button" value="4">No doubt
+			<input id="rating" type="radio" name="radio-button" value="5">You are best
+		</div><br>
+		<div class="leftSection">
+			<label for="rating">Things that should be improved in the future</label>
+		</div>
+		<div class="rightSection">
+			<input id="rating" type="checkbox" name="check-box" value="1">More Salt
+			<input id="rating" type="checkbox" name="check-box" value="2">Less sugar
+			<input id="rating" type="checkbox" name="check-box" value="3">More water
+			<input id="rating" type="checkbox" name="check-box" value="3">More curry
+			<input id="rating" type="checkbox" name="check-box" value="3">Good things
+			<input id="rating" type="checkbox" name="check-box" value="3">Good sugar
+			<input id="rating" type="checkbox" name="check-box" value="3">Anything
+		</div><br>
+		<div class="leftSection">
+			<label for="additional">Any Comments or Suggestions?</label>
+		</div>
+		<div class="rightSection">
+			<textarea id="additional" rows="4" cols="50">Tell me more...</textarea>
+		</div><br>
+		<button id="submit" type="submit">Submit</button>
+	</form>
+</div>
+</main>
