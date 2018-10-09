@@ -120,7 +120,7 @@ img {
 	display: grid;
 	justify-content: center;
 	align-items: center;
-	padding-top: 75px;
+	padding-top: 85px;
 }
 
 
@@ -136,3 +136,18 @@ ul li {
 	list-style-type: none;
 }
 
+.headerPosition{
+	margin-top: 20px;
+}
+
+.formHeader{
+	color:black;
+}
+
+
+
+
+
+/*.getStartedButton{       
+	display: block;
+}*/
