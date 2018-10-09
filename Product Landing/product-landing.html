@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,16 +8,71 @@
 	<link rel="stylesheet" type="text/css" href="product-landing.css">
 </head>
 <body>
-	<header id="header">
-		<img id="header-img" src="#" alt="Company Logo">
-		<nav id="nav-bar">Navigation Bar
-			<a class="nav-link" href="#">How it Works</a>
-			<a class="nav-link" href="#">Shipment</a>
-			<a class="nav-link" href="#">Quality</a>
-			<a class="nav-link" href="#">FAQ</a>
-			<a class="nav-link" href="#">Language</a>
-		</nav>
-	</header>
-
+		<header id="header">
+				<!--<img id="header-img" src="product-logo.png" alt="Company Logo">-->
+					<p>Prime Cloner</p>	
+					<nav class="header" id="nav-bar">
+					<ul class="orderedList">
+						<li><a href="#howItWorks" class="nav-link">How It Works</a></li>
+						<li><a href="#shipment" class="nav-link">Shipment</a></li>
+						<li><a href="#quality" class="nav-link">Quality</a></li>
+                            <ul class="dropit">
+                                <li><a href="#buy" class="nav-link">Buy</a>
+                                    <ul class="dropdownMenu">
+                                        <li><a href="#X11">X1198481</a></li>
+                                        <li><a href="#X29">X2998241</a></li>
+                                        <li><a href="#X37">X379823</a></li>
+                                    </ul>
+                                </li>
+					       </ul>
+					</nav>		
+			</header>
+		<section class="videoTab">
+		<iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/ra6FtdXrH4Q" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		</section>
+			<form id="form" action="/https://www.freecodecamp.org/email-submit/">
+				<label for="mail">E-mail:
+					<input id="email" type="email" name="email" required placeholder="Enter Your E-mail">
+				</label>
+				<input id="submit" type="submit" name="email">
+	</form>
+	<div class="container">
+		<div class="how">
+    	<h2 id="howItWorks">How It Works</h2><hr>
+    		<p>Have you ever built cloning vats in Red Alert 2? No? Go for it.</p>
+    	</div>
+    	<div class="howPic positionPic">
+    		<img src="https://bit.ly/2yo11cD" alt="how it works' pic">
+    	</div>
+    	<div class="ship">
+    	<h2 id="shipment">Shipment</h2><hr>
+    		<p>Simple. Fast and free</p>
+    	</div>
+    	<div class="shipPic positionPic">
+    		<img src="https://bit.ly/2O5zgzT" alt="shipment's pic">
+    	</div>
+    	<div class="qual">
+    	<h2 id="quality">Quality</h2><hr>
+    		<p>We are the only producer in the galaxy, very quality, we guarantee.</p>
+    	</div>
+    	<div class="qualPic positionPic">
+    		<img src="https://bit.ly/2Pc1bLl" alt="quality's pic">
+    	</div>
+    	<div class="price">
+    	<h2 id="buy">BUY NOW!</h2><hr>
+    	</div>
+    	<div class="pricePic positionPic">
+    		<img src="https://bit.ly/2CyIqyP" alt="MODEL X11 pic">
+            <p id="X11" class="txtPrice">X1198481</p>
+    	</div>
+    	<div class="pricePic2 positionPic">
+    		<img src="https://bit.ly/2CyIqyP" alt="MODEL X29 pic">
+            <p id="X29" class="txtPrice">X2998241</p>
+    	</div>
+    	<div class="pricePic3 positionPic">	
+    		<img src="https://bit.ly/2CyIqyP" alt="MODEL X37 pic">
+            <p id="X37" class="txtPrice">X379823</p>
+    	</div>
+	</div>
 </body>
 </html>

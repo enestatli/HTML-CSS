@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz');
+@import url('https://fonts.googleapis.com/css?family=Signika');
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+
+
+html, body{
+    background-image: linear-gradient(to right, #034F84, #91A8D0);
+    opacity: 1;
+	text-align: center;
+	font-family:Orbitron, Yanone Kaffeesatz, Signika, sans-serif;
+}
+
+.orderedList{
+	border:1px solid #006E51;
+	list-style-type: none;
+	display: flex;
+	justify-content: space-evenly;
+	margin-top:20px;
+}
+
+.orderedList a:hover{
+	text-decoration: none;
+	background: #E94B3C;
+}
+
+.videoTab{
+	margin-top:40px;
+
+}
+
+#form{
+	margin-top: 40px;
+}
+
+
+.container{
+	border:1px solid redx;
+	display: grid;
+	grid-template-columns: 400px 400px 400px;
+	grid-template-rows: auto auto auto;
+	grid-gap: 5px;
+}
+
+p{
+	text-align:justify;
+	color:white;
+}
+
+hr{
+	display: block;
+	margin-top:0.1em
+	margin-bottom:0.25em;
+	margin-left: auto;
+	margin-right: auto;
+	border:1px inset #E94B3C;  
+}
+
+h2{
+	color: #EAE6DA
+}
+
+
+.how{
+	grid-area:1/1/2/2;
+}
+
+.howPic{
+	grid-area:1/2/2/3;
+}
+
+.ship{
+	grid-area:2/2/3/3;
+}
+
+.shipPic{
+	grid-area:2/1/3/2;
+}
+
+.qual{
+	grid-area:3/1/4/2;
+}
+
+.qualPic{
+	grid-area:3/2/4/3;
+
+}
+
+.price{
+	grid-area:4/2/5/3;
+}
+
+.pricePic{
+	grid-area:5/1/6/2;
+}
+
+.pricePic2{
+	grid-area:5/3/6/4;
+}
+
+.pricePic3{
+	grid-area:5/2/6/3;
+}
+
+.container > div {
+	border:5px solid yellowx; 
+}
+
+img {
+	width:155px;
+	height:155px;
+	border-radius: 50%;
+
+}
+
+.txtPrice{
+	text-align: center;
+}
+
+.positionPic{
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	padding-top: 75px;
+}
+
+
+.dropdownMenu{
+	display: none;
+}
+
+.dropit li:hover .dropdownMenu{
+	display: block;
+}
+
+ul li {
+	list-style-type: none;
+}
+
